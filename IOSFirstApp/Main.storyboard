@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Me 💀" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="197" translatesAutoresizingMaskIntoConstraints="NO" horizontalHuggingPriority="251" textAlignment="center" misplaced="YES">
+                                <rect key="frame" x="119" y="79" width="82" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="234" firstAttribute="width" constant="82"/>
+                                </constraints>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="3443" translatesAutoresizingMaskIntoConstraints="NO" editable="NO" misplaced="YES">
+                                <rect key="frame" x="40" y="260" width="240" height="150"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <string key="text">My Name is Ed , also known as OniOphanimon 👁 I'm a software developer . My goals are : became tech leader, buy a house "una isla en medio del mar, sere (acon acento) el angel que siempre quiziste y muchos mas (con acento)"</string>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="3448" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES" placeholder="Sentence">
+                                <rect key="frame" x="112" y="134" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3671" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="116" y="205" width="89" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="labelColor"/>
+                                <size key="titleShadowOffset" width="11" height="10"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" colorSpace="custom" customColorSpace="sRGB" red="0.960017076094975" green="0.780249543626216" blue="1" alpha="1"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <constraints>
+                                    <constraint id="3676" firstAttribute="width" constant="46"/>
+                                    <constraint id="3677" firstAttribute="width" constant="46"/>
+                                </constraints>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint id="235" firstItem="197" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="13"/>
+                            <constraint id="236" firstItem="197" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="54"/>
+                            <constraint id="3445" firstItem="3443" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24"/>
+                            <constraint id="3446" firstAttribute="trailingMargin" secondItem="3443" secondAttribute="trailing" constant="24"/>
+                            <constraint id="3449" firstAttribute="trailingMargin" secondItem="3448" secondAttribute="trailing" constant="95"/>
+                            <constraint id="3450" firstItem="3448" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="96"/>
+                            <constraint id="3451" firstItem="3448" firstAttribute="top" secondItem="197" secondAttribute="bottom" constant="63"/>
+                            <constraint id="3672" firstItem="3671" firstAttribute="top" secondItem="3448" secondAttribute="bottom" constant="37"/>
+                            <constraint id="3673" firstAttribute="trailingMargin" secondItem="3671" secondAttribute="trailing" constant="121"/>
+                            <constraint id="3674" firstItem="3671" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="121"/>
+                            <constraint id="4384" firstItem="wfy-db-euE" firstAttribute="top" secondItem="3443" secondAttribute="bottom" constant="158"/>
+                            <constraint id="4385" firstItem="3443" firstAttribute="top" secondItem="3671" secondAttribute="bottom" constant="25"/>
+                            <constraint id="4386" firstItem="3443" firstAttribute="top" secondItem="3671" secondAttribute="bottom" constant="25"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Lbl1" destination="197" id="name-outlet-197"/>
+                        <outlet property="textView" destination="3443" id="name-outlet-3443"/>
+                        <outlet property="textField" destination="3448" id="name-outlet-3448"/>
+                        <outlet property="btn1" destination="3671" id="name-outlet-3671"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+</document>

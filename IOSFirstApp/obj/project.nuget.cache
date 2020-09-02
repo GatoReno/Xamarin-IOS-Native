@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LhOijj2R+PAqcFnABHt7nbfXS3JyfaMwUB+5O2Od6jp7eVkU7bLYhW5qMl09iou6ZWLwZeDfG+QWOVsFOo+aUA==",
+  "success": true,
+  "projectFilePath": "/Users/dmn/Projects/IOSFirstApp/IOSFirstApp/IOSFirstApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/dmn/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512"
+  ],
+  "logs": []
+}
