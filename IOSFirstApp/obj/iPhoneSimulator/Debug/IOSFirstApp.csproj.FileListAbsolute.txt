@@ -2,13 +2,13 @@
 /Users/dmn/Projects/IOSFirstApp/IOSFirstApp/bin/iPhoneSimulator/Debug/IOSFirstApp.pdb
 /Users/dmn/Projects/IOSFirstApp/IOSFirstApp/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
 /Users/dmn/Projects/IOSFirstApp/IOSFirstApp/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
-/Users/dmn/Projects/IOSFirstApp/IOSFirstApp/obj/iPhoneSimulator/Debug/device-builds/iphone se (2nd generation)-13.6/ibtool/_BundleResourceWithLogicalName.items
-/Users/dmn/Projects/IOSFirstApp/IOSFirstApp/obj/iPhoneSimulator/Debug/device-builds/iphone se (2nd generation)-13.6/actool/_PartialAppManifest.items
-/Users/dmn/Projects/IOSFirstApp/IOSFirstApp/obj/iPhoneSimulator/Debug/device-builds/iphone se (2nd generation)-13.6/actool/_BundleResourceWithLogicalName.items
-/Users/dmn/Projects/IOSFirstApp/IOSFirstApp/obj/iPhoneSimulator/Debug/device-builds/iphone se (2nd generation)-13.6/coremlc/_PartialAppManifest.items
-/Users/dmn/Projects/IOSFirstApp/IOSFirstApp/obj/iPhoneSimulator/Debug/device-builds/iphone se (2nd generation)-13.6/coremlc/_BundleResourceWithLogicalName.items
-/Users/dmn/Projects/IOSFirstApp/IOSFirstApp/obj/iPhoneSimulator/Debug/device-builds/iphone se (2nd generation)-13.6/optimized/
 /Users/dmn/Projects/IOSFirstApp/IOSFirstApp/obj/iPhoneSimulator/Debug/IOSFirstApp.csproj.CoreCompileInputs.cache
 /Users/dmn/Projects/IOSFirstApp/IOSFirstApp/obj/iPhoneSimulator/Debug/IOSFirstApp.csproj.CopyComplete
 /Users/dmn/Projects/IOSFirstApp/IOSFirstApp/obj/iPhoneSimulator/Debug/IOSFirstApp.exe
 /Users/dmn/Projects/IOSFirstApp/IOSFirstApp/obj/iPhoneSimulator/Debug/IOSFirstApp.pdb
+/Users/dmn/Projects/IOSFirstApp/IOSFirstApp/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.6/ibtool/_BundleResourceWithLogicalName.items
+/Users/dmn/Projects/IOSFirstApp/IOSFirstApp/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.6/actool/_PartialAppManifest.items
+/Users/dmn/Projects/IOSFirstApp/IOSFirstApp/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.6/actool/_BundleResourceWithLogicalName.items
+/Users/dmn/Projects/IOSFirstApp/IOSFirstApp/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.6/coremlc/_PartialAppManifest.items
+/Users/dmn/Projects/IOSFirstApp/IOSFirstApp/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.6/coremlc/_BundleResourceWithLogicalName.items
+/Users/dmn/Projects/IOSFirstApp/IOSFirstApp/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.6/optimized/

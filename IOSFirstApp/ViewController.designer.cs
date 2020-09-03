@@ -36,6 +36,10 @@ namespace IOSFirstApp
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIProgressView progressView { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UISlider sliderBar { get; set; }
 
         [Outlet]
@@ -75,6 +79,11 @@ namespace IOSFirstApp
             if (lblSwitch != null) {
                 lblSwitch.Dispose ();
                 lblSwitch = null;
+            }
+
+            if (progressView != null) {
+                progressView.Dispose ();
+                progressView = null;
             }
 
             if (sliderBar != null) {

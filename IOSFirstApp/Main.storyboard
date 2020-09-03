@@ -20,7 +20,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Me 💀" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="197" translatesAutoresizingMaskIntoConstraints="NO" horizontalHuggingPriority="251" textAlignment="center" misplaced="YES">
-                                <rect key="frame" x="119" y="91" width="82" height="20"/>
+                                <rect key="frame" x="119" y="126" width="82" height="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -36,7 +36,7 @@
                                 <string key="text">My Name is Ed , also known as OniOphanimon 👁 I'm a software developer . My goals are : became tech leader, buy a house "una isla en medio del mar, sere (acon acento) el angel que siempre quiziste y muchos mas (con acento)"</string>
                             </textView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="3448" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES" placeholder="Sentence">
-                                <rect key="frame" x="112" y="134" width="97" height="30"/>
+                                <rect key="frame" x="112" y="162" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -77,12 +77,15 @@
                                 <color key="maximumTrackTintColor" systemColor="linkColor" colorSpace="calibratedRGB" red="0" green="0.47843137254902" blue="1" alpha="1"/>
                                 <color key="minimumTrackTintColor" systemColor="systemPinkColor" colorSpace="custom" customColorSpace="sRGB" red="1" green="0.176470588235294" blue="0.333333333333333" alpha="1"/>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="10913" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
-                                <rect key="frame" x="217" y="496" width="87" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="10913" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES" text="...">
+                                <rect key="frame" x="217" y="496" width="71" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="15880">
+                                <rect key="frame" x="83" y="108" width="150" height="2"/>
+                            </progressView>
                         </subviews>
                         <constraints>
                             <constraint id="235" firstItem="197" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="13"/>
@@ -111,6 +114,10 @@
                             <constraint id="8825" firstItem="8821" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="87"/>
                             <constraint id="10914" firstItem="10913" firstAttribute="top" secondItem="8821" secondAttribute="centerY" constant="41"/>
                             <constraint id="10915" firstItem="10913" firstAttribute="leading" secondItem="4624" secondAttribute="centerX" constant="56"/>
+                            <constraint id="15881" firstItem="15880" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="88"/>
+                            <constraint id="15882" firstItem="197" firstAttribute="centerY" secondItem="15880" secondAttribute="bottom" constant="26"/>
+                            <constraint id="16202" firstItem="15880" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="67"/>
+                            <constraint id="16203" firstAttribute="trailingMargin" secondItem="15880" secondAttribute="trailing" constant="71"/>
                         </constraints>
                     </view>
                     <connections>
@@ -123,6 +130,7 @@
                         <outlet property="switchToggle" destination="6087" id="name-outlet-6087"/>
                         <outlet property="sliderBar" destination="8821" id="name-outlet-8821"/>
                         <outlet property="lblSlider" destination="10913" id="name-outlet-10913"/>
+                        <outlet property="progressView" destination="15880" id="name-outlet-15880"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
