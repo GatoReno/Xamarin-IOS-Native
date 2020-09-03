@@ -20,7 +20,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Me 💀" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="197" translatesAutoresizingMaskIntoConstraints="NO" horizontalHuggingPriority="251" textAlignment="center" misplaced="YES">
-                                <rect key="frame" x="119" y="79" width="82" height="20"/>
+                                <rect key="frame" x="119" y="91" width="82" height="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -66,6 +66,12 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="6087" translatesAutoresizingMaskIntoConstraints="NO">
                                 <rect key="frame" x="24" y="40" width="51" height="31"/>
                             </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Random color switch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6341" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="91" y="45" width="138" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <constraints>
                             <constraint id="235" firstItem="197" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="13"/>
@@ -86,6 +92,8 @@
                             <constraint id="5840" firstItem="4624" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="100"/>
                             <constraint id="6088" firstItem="6087" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8"/>
                             <constraint id="6089" firstItem="6087" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20"/>
+                            <constraint id="6342" firstItem="6341" firstAttribute="leading" secondItem="6087" secondAttribute="trailing" constant="18"/>
+                            <constraint id="6343" firstItem="6341" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="25"/>
                         </constraints>
                     </view>
                     <connections>
@@ -94,6 +102,8 @@
                         <outlet property="textField" destination="3448" id="name-outlet-3448"/>
                         <outlet property="btn1" destination="3671" id="name-outlet-3671"/>
                         <outlet property="btnRandom" destination="4624" id="name-outlet-4624"/>
+                        <outlet property="lblSwitch" destination="6341" id="name-outlet-6341"/>
+                        <outlet property="switchToggle" destination="6087" id="name-outlet-6087"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

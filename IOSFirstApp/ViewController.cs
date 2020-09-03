@@ -21,8 +21,8 @@ namespace IOSFirstApp
             // textField.KeyboardType = UIKeyboardType.PhonePad;
             // textField.KeyboardType = UIKeyboardType.NumberPad;
             // textField.KeyboardType = UIKeyboardType.Url;
-           
 
+            switchToggle.ValueChanged += SwitchToggle_ValueChanged;
             btn1.TouchUpInside += (object sender, EventArgs e) => {
                 Console.WriteLine("CLICKED YEAH!!!!! 💀");
                 textView.Text = textField.Text;
@@ -33,7 +33,7 @@ namespace IOSFirstApp
 
             btn1.TouchDragExit += (object sender, EventArgs e) => {
                 Console.WriteLine("TouchDragExit YEAH!!!!! 💀");
-               
+
                 textField.Text = "";
                 View.BackgroundColor = UIColor.FromRGB(255, 237, 255);
             };
@@ -43,16 +43,31 @@ namespace IOSFirstApp
 
                 Console.WriteLine("Random YEAH!!!!! 💀");
 
-                var randSeed = new Random();
-                var rc1 = (float)randSeed.NextDouble();
-                var rc2 = (float)randSeed.NextDouble();
-                var rc3 = (float)randSeed.NextDouble();
+                if (switchToggle.On)
+                {
 
-               // btnRandom.color = UIColor.FromRGB(rc1, rc2, rc3);
-               btnRandom.SetTitleColor(UIColor.FromRGB(rc1, rc2, rc3),UIControlState.Normal);
-                View.BackgroundColor = UIColor.FromRGB(rc1, rc2, rc3);
+                    var randSeed = new Random();
+                    var rc1 = (float)randSeed.NextDouble();
+                    var rc2 = (float)randSeed.NextDouble();
+                    var rc3 = (float)randSeed.NextDouble();
+
+                    // btnRandom.color = UIColor.FromRGB(rc1, rc2, rc3);
+                    btnRandom.SetTitleColor(UIColor.FromRGB(rc1, rc2, rc3), UIControlState.Normal);
+                    View.BackgroundColor = UIColor.FromRGB(rc1, rc2, rc3);
+                }
             };
 
+        }
+
+        private void SwitchToggle_ValueChanged(object sender, EventArgs e)
+        {
+            if (switchToggle.On)
+            {
+                lblSwitch.Text = "Random colors enable";
+            } else
+            {
+                lblSwitch.Text = "Random colors disable";
+            }
         }
 
         public override void ViewWillAppear(bool animated)

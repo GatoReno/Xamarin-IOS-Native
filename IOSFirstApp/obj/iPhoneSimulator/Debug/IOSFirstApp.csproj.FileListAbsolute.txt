@@ -12,4 +12,3 @@
 /Users/dmn/Projects/IOSFirstApp/IOSFirstApp/obj/iPhoneSimulator/Debug/IOSFirstApp.csproj.CopyComplete
 /Users/dmn/Projects/IOSFirstApp/IOSFirstApp/obj/iPhoneSimulator/Debug/IOSFirstApp.exe
 /Users/dmn/Projects/IOSFirstApp/IOSFirstApp/obj/iPhoneSimulator/Debug/IOSFirstApp.pdb
-/Users/dmn/Projects/IOSFirstApp/IOSFirstApp/obj/iPhoneSimulator/Debug/IOSFirstApp.csprojAssemblyReference.cache
