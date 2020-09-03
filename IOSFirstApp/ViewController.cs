@@ -22,6 +22,9 @@ namespace IOSFirstApp
             // textField.KeyboardType = UIKeyboardType.NumberPad;
             // textField.KeyboardType = UIKeyboardType.Url;
 
+
+
+            sliderBar.ValueChanged += SlideBar_ValueChanged;
             switchToggle.ValueChanged += SwitchToggle_ValueChanged;
             btn1.TouchUpInside += (object sender, EventArgs e) => {
                 Console.WriteLine("CLICKED YEAH!!!!! 💀");
@@ -57,6 +60,13 @@ namespace IOSFirstApp
                 }
             };
 
+        }
+
+        private void SlideBar_ValueChanged(object sender, EventArgs e)
+        {
+            var val = sliderBar.Value;
+            textView.Font = UIFont.SystemFontOfSize(val + 10);
+            lblSlider.Text = $"Slider : {val}";
         }
 
         private void SwitchToggle_ValueChanged(object sender, EventArgs e)

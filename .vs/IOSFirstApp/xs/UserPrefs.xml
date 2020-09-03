@@ -1,17 +1,19 @@
 ﻿<Properties StartupConfiguration="{68C559BF-D35E-4C1C-BE11-6991CCC445B1}|Default">
   <MonoDevelop.Ide.ItemProperties.IOSFirstApp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.163931D3-B214-40ED-973C-66CFCE71ECC3" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="IOSFirstApp/ViewController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IOSFirstApp/Main.storyboard">
     <Files>
       <File FileName="IOSFirstApp/ViewController.designer.cs" Line="17" Column="17" />
       <File FileName="IOSFirstApp/Main.storyboard" />
-      <File FileName="IOSFirstApp/ViewController.cs" Line="30" Column="53" />
+      <File FileName="IOSFirstApp/ViewController.cs" Line="24" Column="13" />
+      <File FileName="IOSFirstApp/LaunchScreen.storyboard" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="IOSFirstApp" expanded="True">
             <Node name="IOSFirstApp" expanded="True">
-              <Node name="ViewController.cs" expanded="True" selected="True" />
+              <Node name="Main.storyboard" selected="True" />
+              <Node name="ViewController.cs" expanded="True" />
             </Node>
           </Node>
         </State>

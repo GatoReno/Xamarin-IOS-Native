@@ -28,7 +28,15 @@ namespace IOSFirstApp
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel lblSlider { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel lblSwitch { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UISlider sliderBar { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -59,9 +67,19 @@ namespace IOSFirstApp
                 Lbl1 = null;
             }
 
+            if (lblSlider != null) {
+                lblSlider.Dispose ();
+                lblSlider = null;
+            }
+
             if (lblSwitch != null) {
                 lblSwitch.Dispose ();
                 lblSwitch = null;
+            }
+
+            if (sliderBar != null) {
+                sliderBar.Dispose ();
+                sliderBar = null;
             }
 
             if (switchToggle != null) {
