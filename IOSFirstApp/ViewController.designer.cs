@@ -20,7 +20,19 @@ namespace IOSFirstApp
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton btnRandom { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel Lbl1 { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel lblSwitch { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UISwitch switchToggle { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -37,9 +49,24 @@ namespace IOSFirstApp
                 btn1 = null;
             }
 
+            if (btnRandom != null) {
+                btnRandom.Dispose ();
+                btnRandom = null;
+            }
+
             if (Lbl1 != null) {
                 Lbl1.Dispose ();
                 Lbl1 = null;
+            }
+
+            if (lblSwitch != null) {
+                lblSwitch.Dispose ();
+                lblSwitch = null;
+            }
+
+            if (switchToggle != null) {
+                switchToggle.Dispose ();
+                switchToggle = null;
             }
 
             if (textField != null) {

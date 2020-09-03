@@ -53,6 +53,19 @@
                                     <constraint id="3677" firstAttribute="width" constant="46"/>
                                 </constraints>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4624" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="116" y="451" width="89" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="Radom">
+                                    <color key="titleColor" systemColor="systemTealColor" colorSpace="custom" customColorSpace="sRGB" red="0.352941176470588" green="0.784313725490196" blue="0.980392156862745" alpha="1"/>
+                                </state>
+                                <constraints>
+                                    <constraint id="4629" firstAttribute="width" constant="55"/>
+                                </constraints>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="6087" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="24" y="40" width="51" height="31"/>
+                            </switch>
                         </subviews>
                         <constraints>
                             <constraint id="235" firstItem="197" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="13"/>
@@ -62,12 +75,17 @@
                             <constraint id="3449" firstAttribute="trailingMargin" secondItem="3448" secondAttribute="trailing" constant="95"/>
                             <constraint id="3450" firstItem="3448" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="96"/>
                             <constraint id="3451" firstItem="3448" firstAttribute="top" secondItem="197" secondAttribute="bottom" constant="63"/>
-                            <constraint id="3672" firstItem="3671" firstAttribute="top" secondItem="3448" secondAttribute="bottom" constant="37"/>
+                            <constraint id="3672" firstItem="3671" firstAttribute="top" secondItem="3448" secondAttribute="bottom" constant="41"/>
                             <constraint id="3673" firstAttribute="trailingMargin" secondItem="3671" secondAttribute="trailing" constant="121"/>
                             <constraint id="3674" firstItem="3671" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="121"/>
                             <constraint id="4384" firstItem="wfy-db-euE" firstAttribute="top" secondItem="3443" secondAttribute="bottom" constant="158"/>
                             <constraint id="4385" firstItem="3443" firstAttribute="top" secondItem="3671" secondAttribute="bottom" constant="25"/>
                             <constraint id="4386" firstItem="3443" firstAttribute="top" secondItem="3671" secondAttribute="bottom" constant="25"/>
+                            <constraint id="4625" firstItem="4624" firstAttribute="top" secondItem="3443" secondAttribute="bottom" constant="41"/>
+                            <constraint id="4626" firstItem="wfy-db-euE" firstAttribute="top" secondItem="4624" secondAttribute="bottom" constant="87"/>
+                            <constraint id="5840" firstItem="4624" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="100"/>
+                            <constraint id="6088" firstItem="6087" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8"/>
+                            <constraint id="6089" firstItem="6087" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20"/>
                         </constraints>
                     </view>
                     <connections>
@@ -75,6 +93,7 @@
                         <outlet property="textView" destination="3443" id="name-outlet-3443"/>
                         <outlet property="textField" destination="3448" id="name-outlet-3448"/>
                         <outlet property="btn1" destination="3671" id="name-outlet-3671"/>
+                        <outlet property="btnRandom" destination="4624" id="name-outlet-4624"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
