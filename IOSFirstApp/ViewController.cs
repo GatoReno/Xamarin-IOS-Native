@@ -51,7 +51,8 @@ namespace IOSFirstApp
                         });
                     });
 
-                    await Task.Delay(500);
+                    await Task.Delay(500); // if we really wanna a rave change 500 to 100
+                    RandomColorBG();
                 }
             }
 
@@ -76,16 +77,22 @@ namespace IOSFirstApp
                 if (switchToggle.On)
                 {
 
-                    var randSeed = new Random();
-                    var rc1 = (float)randSeed.NextDouble();
-                    var rc2 = (float)randSeed.NextDouble();
-                    var rc3 = (float)randSeed.NextDouble();
-
-                    // btnRandom.color = UIColor.FromRGB(rc1, rc2, rc3);
-                    btnRandom.SetTitleColor(UIColor.FromRGB(rc1, rc2, rc3), UIControlState.Normal);
-                    View.BackgroundColor = UIColor.FromRGB(rc1, rc2, rc3);
+                    RandomColorBG();
                 }
             };
+
+        }
+
+        void RandomColorBG() {
+            var randSeed = new Random();
+            var rc1 = (float)randSeed.Next(50,100);
+            var rc2 = (float)randSeed.Next(50, 100);
+            var rc3 = (float)randSeed.Next(50, 100);
+
+            // btnRandom.color = UIColor.FromRGB(rc1, rc2, rc3);
+            btnRandom.SetTitleColor(UIColor.FromRGB(rc1/100, rc2/100, rc3/100), UIControlState.Normal);
+            View.BackgroundColor = UIColor.FromRGB(rc1 / 100, rc2 / 100, rc3 / 100);
+
 
         }
 

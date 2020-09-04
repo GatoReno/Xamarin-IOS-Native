@@ -12,3 +12,4 @@
 /Users/dmn/Projects/IOSFirstApp/IOSFirstApp/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.6/coremlc/_PartialAppManifest.items
 /Users/dmn/Projects/IOSFirstApp/IOSFirstApp/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.6/coremlc/_BundleResourceWithLogicalName.items
 /Users/dmn/Projects/IOSFirstApp/IOSFirstApp/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.6/optimized/
+/Users/dmn/Projects/IOSFirstApp/IOSFirstApp/obj/iPhoneSimulator/Debug/IOSFirstApp.csprojAssemblyReference.cache
